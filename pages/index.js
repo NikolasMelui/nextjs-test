@@ -1,9 +1,10 @@
-import Header from "../components/Header";
+import Layout from "../components/MyLayout";
 
 const Index = () => (
   <div>
-    <Header />
-    <p>Main page</p>
+    <Layout>
+      <p>Main page</p>
+    </Layout>
   </div>
 );
 

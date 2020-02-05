@@ -1,9 +1,10 @@
-import Header from "../components/Header";
+import Layout from "../components/MyLayout";
 
 const About = () => (
   <div>
-    <Header />
-    <p>About page</p>
+    <Layout>
+      <p>About page</p>
+    </Layout>
   </div>
 );
 
