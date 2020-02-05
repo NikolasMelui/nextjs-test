@@ -1,12 +1,9 @@
-import Link from "next/link";
+import Header from "../components/Header";
 
 const Index = () => (
   <div>
-    {/* <Link href="/about">About page</Link> */}
-    <Link href="/about">
-      <a>About Page</a>
-    </Link>
-    <p>Hello there!!!</p>
+    <Header />
+    <p>Main page</p>
   </div>
 );
 

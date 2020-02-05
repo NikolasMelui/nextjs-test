@@ -1,11 +1,9 @@
-import Link from "next/link";
+import Header from "../components/Header";
 
 const About = () => (
   <div>
-    <Link href="/">
-      <a>Main page</a>
-    </Link>
-    <p>This is the About page!!!</p>
+    <Header />
+    <p>About page</p>
   </div>
 );
 
