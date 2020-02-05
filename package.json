@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-test",
+  "version": "0.0.1",
+  "description": "Testing the nextjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolasMelui/nextjs-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolasMelui/nextjs-test/issues"
+  },
+  "homepage": "https://github.com/NikolasMelui/nextjs-test#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
